@@ -34,7 +34,9 @@
    ========================================================= */
 
 /* Make all cards glassmorphic */
-div[class*="card"], div[class*="Card"], .skill-box {
+div[class*="card"],
+div[class*="Card"],
+.skill-box {
   background: rgba(255, 255, 255, 0.05) !important;
   backdrop-filter: blur(12px) !important;
   -webkit-backdrop-filter: blur(12px) !important;
@@ -44,7 +46,9 @@ div[class*="card"], div[class*="Card"], .skill-box {
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
 }
 
-div[class*="card"]:hover, div[class*="Card"]:hover, .skill-box:hover {
+div[class*="card"]:hover,
+div[class*="Card"]:hover,
+.skill-box:hover {
   transform: translateY(-5px) !important;
   box-shadow: 0 8px 30px rgba(0, 229, 255, 0.15) !important;
   border-color: rgba(0, 229, 255, 0.4) !important;
@@ -85,7 +89,8 @@ div[class*="card"]:hover, div[class*="Card"]:hover, .skill-box:hover {
   font-weight: 800;
 }
 
-.greeting-text-p, .skills-text-subtitle {
+.greeting-text-p,
+.skills-text-subtitle {
   color: #cbd5e1 !important;
   font-size: 1.15rem !important;
   line-height: 1.6 !important;
@@ -98,9 +103,9 @@ div[class*="card"]:hover, div[class*="Card"]:hover, .skill-box:hover {
 
 /* Social Media Icons Neon Fix */
 .icon-button {
-  background-color: rgba(255,255,255,0.05) !important;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3) !important;
-  border: 1px solid rgba(255,255,255,0.1) !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
   transition: transform 0.3s, background-color 0.3s !important;
 }
 .icon-button:hover {

@@ -48,7 +48,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "COMPUTER SCIENCE ENGINEERING STUDENT EXPLORING FULL STACK DEVELOPMENT & AI",
+  subTitle:
+    "COMPUTER SCIENCE ENGINEERING STUDENT EXPLORING FULL STACK DEVELOPMENT & AI",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for web applications"
@@ -199,19 +200,22 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "SENSEASE – Mental Health & Wellness Platform",
-      projectDesc: "Architected a secure multi-tenant SaaS platform with Supabase RLS, stateless authentication, and RBAC-governed real-time communication using Socket.IO and WebRTC. Engineered a sub-second, voice-to-voice RAG pipeline.",
+      projectDesc:
+        "Architected a secure multi-tenant SaaS platform with Supabase RLS, stateless authentication, and RBAC-governed real-time communication using Socket.IO and WebRTC. Engineered a sub-second, voice-to-voice RAG pipeline.",
       footerLink: []
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "CODEFORGE",
-      projectDesc: "Engineered a high-performance web-based IDE using the Monaco Editor; achieved <1ms typing latency. Architected an interactive technical assessment platform leveraging the Web Speech API and LLMs.",
+      projectDesc:
+        "Engineered a high-performance web-based IDE using the Monaco Editor; achieved <1ms typing latency. Architected an interactive technical assessment platform leveraging the Web Speech API and LLMs.",
       footerLink: []
     },
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Torrentor(P2P)",
-      projectDesc: "Implemented a Peer to Peer (P2P) file sharing system with functionality for automatic location of files. Applied concurrency principles and socket programming abstractions in C++ ensuring secure file transmission.",
+      projectDesc:
+        "Implemented a Peer to Peer (P2P) file sharing system with functionality for automatic location of files. Applied concurrency principles and socket programming abstractions in C++ ensuring secure file transmission.",
       footerLink: []
     }
   ],
@@ -223,8 +227,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Awards And Achievements 🏆 "),
-  subtitle:
-    "Key milestones and accomplishments in my journey.",
+  subtitle: "Key milestones and accomplishments in my journey.",
 
   achievementsCards: [
     {
@@ -245,14 +248,16 @@ const achievementSection = {
     },
     {
       title: "Competitive Programming Profile",
-      subtitle: "Codeforces: Expert (Max Rating 1645), CodeChef: 4★ Coder (Max 1802), Meta Hacker Cup 2025: Advanced to Round 2.",
+      subtitle:
+        "Codeforces: Expert (Max Rating 1645), CodeChef: 4★ Coder (Max 1802), Meta Hacker Cup 2025: Advanced to Round 2.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "CP Profile",
       footerLink: []
     },
     {
       title: "Academic Excellence",
-      subtitle: "Secured Global Rank 1 in NPTEL : Soft Skill Development (IIT Kharagpur). JEE Main 2024: 99.37 percentile, ranked among the top 0.63%.",
+      subtitle:
+        "Secured Global Rank 1 in NPTEL : Soft Skill Development (IIT Kharagpur). JEE Main 2024: 99.37 percentile, ranked among the top 0.63%.",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "Academic Achievements",
       footerLink: []

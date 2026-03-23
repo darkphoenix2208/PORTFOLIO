@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap");
 
 @font-face {
   font-family: "Agustina Regular";
@@ -23,8 +23,12 @@ body {
   min-height: 100vh;
   /* Premium Dark Theme Gradient */
   background-color: #0b0c10;
-  background-image: radial-gradient(circle at top right, #1f1c3a, transparent 40%),
-                    radial-gradient(circle at bottom left, #0e1e2d, transparent 40%);
+  background-image: radial-gradient(
+      circle at top right,
+      #1f1c3a,
+      transparent 40%
+    ),
+    radial-gradient(circle at bottom left, #0e1e2d, transparent 40%);
   background-attachment: fixed;
   color: #ffffff !important;
   font-family: "Outfit", sans-serif !important;
@@ -33,7 +37,15 @@ body {
 }
 
 /* Force all text headers to outfit and white */
-h1, h2, h3, h4, h5, p, span, a, li {
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+a,
+li {
   font-family: "Outfit", sans-serif;
 }
 
