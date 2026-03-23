@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
 @font-face {
   font-family: "Agustina Regular";
   font-style: normal;
@@ -6,31 +8,40 @@
     url("./assets/fonts/Agustina.woff") format("woff");
   font-display: swap;
 }
-@font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat"),
-    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
-  font-display: swap;
-}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-html,
-body {
+
+html {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  min-height: 100vh;
+  /* Premium Dark Theme Gradient */
+  background-color: #0b0c10;
+  background-image: radial-gradient(circle at top right, #1f1c3a, transparent 40%),
+                    radial-gradient(circle at bottom left, #0e1e2d, transparent 40%);
+  background-attachment: fixed;
+  color: #ffffff !important;
+  font-family: "Outfit", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Force all text headers to outfit and white */
+h1, h2, h3, h4, h5, p, span, a, li {
+  font-family: "Outfit", sans-serif;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   html,
   body {
-    font-size: rem;
+    font-size: 16px;
     line-height: normal;
   }
 }
